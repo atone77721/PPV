@@ -1,7 +1,7 @@
 name: PPV Stream Fetcher
 
-on:
-  schedule:
+#on:
+  #schedule:
     # Run every hour on the hour
     - cron: '0 * * * *'
   workflow_dispatch:
