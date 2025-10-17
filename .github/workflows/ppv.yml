@@ -1,0 +1,74 @@
+name: PPV Stream Fetcher
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # hourly, UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-streams:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: true
+        fetch-depth: 0
+
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: 📦 Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install aiohttp playwright
+        playwright install
+        playwright install-deps
+
+    - name: 🔐 Decode PPV script from secret
+      run: |
+        echo "${{ secrets.PPV_PY_B64 }}" | base64 --decode > ppv.py
+        ls -l ppv.py
+        head -n 5 ppv.py
+
+    - name: ▶️ Run PPV script
+      run: python ppv.py
+
+    - name: 🧪 Show status & diff
+      run: |
+        git status
+        git diff -- PPVLand.m3u8 || true
+
+    - name: 💾 Commit changes
+      if: success()
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        if [ -f ".gitignore" ] && grep -E '(^|\s)\*.m3u8(\s|$)' .gitignore; then
+          echo "::warning ::.gitignore excludes *.m3u8. Remove that rule or add an exception for PPVLand.m3u8."
+        fi
+
+        git config --local user.name  "github-actions[bot]"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+        git add PPVLand.m3u8
+
+        if ! git diff --staged --quiet; then
+          git commit -m "Update PPV streams [skip ci]"
+          git push
+        else
+          echo "No changes to commit"
+        fi
+
+    - name: 📦 Upload playlist artifact
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: PPVLand.m3u8
+        path: PPVLand.m3u8
