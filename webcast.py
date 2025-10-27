@@ -22,11 +22,15 @@ OUTPUT_FILE = "SportsWebcastPT.m3u8"
 LOCAL_TZ = ZoneInfo("America/Los_Angeles")
 
 # ---- BASE URLS ----
-NFL_BASE_URL = "https://nflwebcast.top/"
-NHL_BASE_URL = "https://nhlstreams.org/nhlstreams-2/"
-MLB_BASE_URL = "https://mlbstreams.live/"
-MLS_BASE_URL = "https://mlswebcast.com/"
-NBA_BASE_URL = "https://nbawebcast.top/"
+NFL_BASE_URL = "https://thetvapps.com/nfl-streams/"
+NHL_BASE_URL = "https://thetvapps.com/nhl-streams/"
+MLB_BASE_URL = "https://thetvapps.com/mlb-streams/"
+MLS_BASE_URL = "https://thetvapps.com/soccer-streams/"
+NBA_BASE_URL = "https://thetvapps.com/nba-streams/"
+PPV_BASE_URL = "https://thetvapps.com/ppv-streams/"
+DARTS_BASE_URL = "https://thetvapps.com/darts-streams/"
+WRESTLING_BASE_URL = "https://thetvapps.com/wrestling-streams/"
+MOTORSPORTS_BASE_URL = "https://thetvapps.com/motorsports-streams/"
 
 # Optional 24/7 channels
 NFL_CHANNEL_URLS = []
