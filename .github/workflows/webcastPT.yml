@@ -1,4 +1,4 @@
-name: 🏈🏒⚾ Update SportsWebcast Playlist 📺
+name: 🏈🏒⚾ Update SportsWebcastPT Playlist 📺
 
 on:
   schedule:
@@ -32,13 +32,13 @@ jobs:
 
       - name: 🔐 Decode Base64 Script from Secret
         env:
-          WEBCAST_B64: ${{ secrets.WEBCAST_B64 }}
+          WEBCASTPT_B64: ${{ secrets.WEBCASTPT_B64 }}
         run: |
-          echo "$WEBCAST_B64" | base64 --decode > webcast.py
-          ls -lh webcast.py
+          echo "$WEBCASTPT_B64" | base64 --decode > webcastPT.py
+          ls -lh webcastPT.py
 
       - name: 🎯 Run scraping script
-        run: python webcast.py
+        run: python webcastPT.py
 
       - name: 💾 Commit & Safely Push if Playlist Changed
         env:
