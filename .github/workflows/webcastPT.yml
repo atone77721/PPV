@@ -30,12 +30,13 @@ jobs:
           playwright install-deps
           playwright install
 
-      - name: 🔐 Decode Base64 Script from Secret
+           - name: 🔐 Decode Base64 Script from Secret
         env:
           WEBCASTPT_B64: ${{ secrets.WEBCASTPT_B64 }}
         run: |
-          echo "$WEBCASTPT_B64" | base64 --decode > tvapp.py
+          echo "$WEBCASTPT_B64" | base64 --decode | gunzip > tvapp.py
           ls -lh tvapp.py
+          head -n 5 tvapp.py
 
       - name: 🎯 Run scraping script
         run: python tvapp.py
