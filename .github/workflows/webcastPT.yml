@@ -1,8 +1,8 @@
-name: 🏈🏒⚾ Update SportsWebcastPT Playlist 📺
+name: "🏈🏒⚾ Update SportsWebcastPT Playlist 📺"
 
 on:
   schedule:
-    - cron: '0 */12 * * *'  # every 12 hours
+    - cron: "0 */12 * * *"  # every 12 hours
   workflow_dispatch:
 
 permissions:
@@ -21,7 +21,7 @@ jobs:
       - name: 🐍 Set up Python 3.11
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: 📦 Install Python dependencies & Playwright
         run: |
@@ -30,14 +30,13 @@ jobs:
           playwright install-deps
           playwright install
 
-       - name: 🔐 Decode Base64 Script from Secret
+      - name: 🔐 Decode Base64 Script from Secret
         env:
           WEBCASTPT_B64: ${{ secrets.WEBCASTPT_B64 }}
         run: |
           echo "$WEBCASTPT_B64" | base64 --decode | gunzip > tvapp.py
           ls -lh tvapp.py
           head -n 5 tvapp.py
-
 
       - name: 🎯 Run scraping script
         run: python tvapp.py
