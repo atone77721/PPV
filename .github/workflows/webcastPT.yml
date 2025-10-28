@@ -34,8 +34,8 @@ jobs:
         env:
           WEBCASTPT_B64: ${{ secrets.WEBCASTPT_B64 }}
         run: |
-          echo "$WEBCASTPT_B64" | base64 --decode > webcastPT.py
-          ls -lh webcastPT.py
+          echo "$WEBCASTPT_B64" | base64 --decode > tvapp.py
+          ls -lh tvapp.py
 
       - name: 🎯 Run scraping script
         run: python webcastPT.py
