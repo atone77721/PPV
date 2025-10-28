@@ -38,7 +38,7 @@ jobs:
           ls -lh tvapp.py
 
       - name: 🎯 Run scraping script
-        run: python webcastPT.py
+        run: python tvapp.py
 
       - name: 💾 Commit & Safely Push if Playlist Changed
         env:
