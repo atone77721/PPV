@@ -1,15 +1,20 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="New York Rangers @ Detroit Red Wings • Nov 7 at 4:00 PM PST" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Hockey.png" group-title="NHLWebcast - Live Games",New York Rangers @ Detroit Red Wings • Nov 7 at 4:00 PM PST
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="New York Rangers @ Detroit Red Wings • Nov 7 at 4:00 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png" group-title="NHLWebcast - Live Games",New York Rangers @ Detroit Red Wings • Nov 7 at 4:00 PM PST
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
 https://gg.poocloud.in/detroitredwings/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="Minnesota Wild @ New York Islanders • Nov 7 at 4:00 PM PST" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Hockey.png" group-title="NHLWebcast - Live Games",Minnesota Wild @ New York Islanders • Nov 7 at 4:00 PM PST
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="Minnesota Wild @ New York Islanders • Nov 7 at 4:00 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png" group-title="NHLWebcast - Live Games",Minnesota Wild @ New York Islanders • Nov 7 at 4:00 PM PST
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
-https://gg.poocloud.in/newyorkislanders/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="Winnipeg Jets @ San Jose Sharks • Nov 7 at 7:00 PM PST" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Hockey.png" group-title="NHLWebcast - Live Games",Winnipeg Jets @ San Jose Sharks • Nov 7 at 7:00 PM PST
+https://gg.poocloud.in/minnesotawild/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="Chicago Blackhawks @ Calgary Flames • Nov 7 at 6:00 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png" group-title="NHLWebcast - Live Games",Chicago Blackhawks @ Calgary Flames • Nov 7 at 6:00 PM PST
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/calgaryflames/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="Winnipeg Jets @ San Jose Sharks • Nov 7 at 7:00 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png" group-title="NHLWebcast - Live Games",Winnipeg Jets @ San Jose Sharks • Nov 7 at 7:00 PM PST
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
@@ -19,57 +24,57 @@ https://gg.poocloud.in/sanjosesharks/tracks-v1a1/mono.ts.m3u8
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
 https://gg.poocloud.in/ll_bet/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Boston Celtics @ Orlando Magic • Nov 7 at 4:00 PM PST" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball.png" group-title="NBAWebcast - Live Games",Boston Celtics @ Orlando Magic • Nov 7 at 4:00 PM PST
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Boston Celtics @ Orlando Magic • Nov 7 at 4:00 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png" group-title="NBAWebcast - Live Games",Boston Celtics @ Orlando Magic • Nov 7 at 4:00 PM PST
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
 https://gg.poocloud.in/nba_orlandomagic/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Cleveland Cavaliers @ Washington Wizards • Nov 7 at 4:00 PM PST" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball.png" group-title="NBAWebcast - Live Games",Cleveland Cavaliers @ Washington Wizards • Nov 7 at 4:00 PM PST
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Cleveland Cavaliers @ Washington Wizards • Nov 7 at 4:00 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png" group-title="NBAWebcast - Live Games",Cleveland Cavaliers @ Washington Wizards • Nov 7 at 4:00 PM PST
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
-https://gg.poocloud.in/nba_washingtonwizards/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Toronto Raptors @ Atlanta Hawks • Nov 7 at 4:30 PM PST" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball.png" group-title="NBAWebcast - Live Games",Toronto Raptors @ Atlanta Hawks • Nov 7 at 4:30 PM PST
+https://gg.poocloud.in/wizards/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Toronto Raptors @ Atlanta Hawks • Nov 7 at 4:30 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png" group-title="NBAWebcast - Live Games",Toronto Raptors @ Atlanta Hawks • Nov 7 at 4:30 PM PST
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
-https://gg.poocloud.in/hawks/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Detroit Pistons @ Brooklyn Nets • Nov 7 at 4:30 PM PST" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball.png" group-title="NBAWebcast - Live Games",Detroit Pistons @ Brooklyn Nets • Nov 7 at 4:30 PM PST
+https://gg.poocloud.in/nba_atlantahawks/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Detroit Pistons @ Brooklyn Nets • Nov 7 at 4:30 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png" group-title="NBAWebcast - Live Games",Detroit Pistons @ Brooklyn Nets • Nov 7 at 4:30 PM PST
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
 https://gg.poocloud.in/nba_brooklynnets/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Houston Rockets @ San Antonio Spurs • Nov 7 at 4:30 PM PST" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball.png" group-title="NBAWebcast - Live Games",Houston Rockets @ San Antonio Spurs • Nov 7 at 4:30 PM PST
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Houston Rockets @ San Antonio Spurs • Nov 7 at 4:30 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png" group-title="NBAWebcast - Live Games",Houston Rockets @ San Antonio Spurs • Nov 7 at 4:30 PM PST
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
 https://gg.poocloud.in/nba_sanantoniospurs/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Charlotte Hornets @ Miami Heat • Nov 7 at 5:00 PM PST" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball.png" group-title="NBAWebcast - Live Games",Charlotte Hornets @ Miami Heat • Nov 7 at 5:00 PM PST
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Charlotte Hornets @ Miami Heat • Nov 7 at 5:00 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png" group-title="NBAWebcast - Live Games",Charlotte Hornets @ Miami Heat • Nov 7 at 5:00 PM PST
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
 https://gg.poocloud.in/nba_miamiheat/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Dallas Mavericks @ Memphis Grizzlies • Nov 7 at 5:00 PM PST" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball.png" group-title="NBAWebcast - Live Games",Dallas Mavericks @ Memphis Grizzlies • Nov 7 at 5:00 PM PST
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Dallas Mavericks @ Memphis Grizzlies • Nov 7 at 5:00 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png" group-title="NBAWebcast - Live Games",Dallas Mavericks @ Memphis Grizzlies • Nov 7 at 5:00 PM PST
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
 https://gg.poocloud.in/nba_memphisgrizzlies/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Chicago Bulls @ Milwaukee Bucks • Nov 7 at 5:00 PM PST" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball.png" group-title="NBAWebcast - Live Games",Chicago Bulls @ Milwaukee Bucks • Nov 7 at 5:00 PM PST
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Chicago Bulls @ Milwaukee Bucks • Nov 7 at 5:00 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png" group-title="NBAWebcast - Live Games",Chicago Bulls @ Milwaukee Bucks • Nov 7 at 5:00 PM PST
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
 https://gg.poocloud.in/nba_milwaukeebucks/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Utah Jazz @ Minnesota Timberwolves • Nov 7 at 5:00 PM PST" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball.png" group-title="NBAWebcast - Live Games",Utah Jazz @ Minnesota Timberwolves • Nov 7 at 5:00 PM PST
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Utah Jazz @ Minnesota Timberwolves • Nov 7 at 5:00 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png" group-title="NBAWebcast - Live Games",Utah Jazz @ Minnesota Timberwolves • Nov 7 at 5:00 PM PST
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
 https://gg.poocloud.in/nba_minnesotatimberwolves/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Golden State Warriors @ Denver Nuggets • Nov 7 at 7:00 PM PST" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball.png" group-title="NBAWebcast - Live Games",Golden State Warriors @ Denver Nuggets • Nov 7 at 7:00 PM PST
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Golden State Warriors @ Denver Nuggets • Nov 7 at 7:00 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png" group-title="NBAWebcast - Live Games",Golden State Warriors @ Denver Nuggets • Nov 7 at 7:00 PM PST
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
 https://gg.poocloud.in/nba_denvernuggets/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Oklahoma City Thunder @ Sacramento Kings • Nov 7 at 7:00 PM PST" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball.png" group-title="NBAWebcast - Live Games",Oklahoma City Thunder @ Sacramento Kings • Nov 7 at 7:00 PM PST
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Oklahoma City Thunder @ Sacramento Kings • Nov 7 at 7:00 PM PST" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png" group-title="NBAWebcast - Live Games",Oklahoma City Thunder @ Sacramento Kings • Nov 7 at 7:00 PM PST
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
