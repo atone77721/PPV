@@ -1,0 +1,26 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="MLS.Soccer.Dummy.us" tvg-name="MLS / Soccer Live Stream" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" group-title="MLSWebcast - Live Events",MLS / Soccer Live Stream
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/ll_bet/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="PPV.Events.Dummy.us" tvg-name="PPV Events Live Stream" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/PPV.png" group-title="PPVWebcast - Live Events",PPV Events Live Stream
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/ppv/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="Darts.Dummy.us" tvg-name="Darts Live Stream" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Darts.png" group-title="DartsWebcast - Live Events",Darts Live Stream
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/darts/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="Wrestling.Dummy.us" tvg-name="Wrestling Live Stream" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Wrestling.png" group-title="WrestlingWebcast - Live Events",Wrestling Live Stream
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/wrestling/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="Motorsports.Dummy.us" tvg-name="Motorsports Live Stream" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Motorsports.png" group-title="MotorsportsWebcast - Live Events",Motorsports Live Stream
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/motorsports/tracks-v1a1/mono.ts.m3u8
